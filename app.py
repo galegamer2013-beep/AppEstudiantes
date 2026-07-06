@@ -739,4 +739,8 @@ else:
             )
             st.plotly_chart(fig, use_container_width=True, config={'displayModeBar': False})
         else:
+
+            # CONFIGURACIÓN DE LA IA (GEMINI)
+API_KEY = "AQ.Ab8RN6JZC4xp1YNnd7q6osE79T5gk805RBEZm4HqJn7Vm7AVrg"
+genai.configure(api_key=API_KEY)
             st.caption(txt["no_graficos"])
