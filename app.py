@@ -303,7 +303,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-API_KEY = "AQ.Ab8RN6JoCggDfGSlBETWNGkrHSgfJFVSvo7ZOpgPAaK67hVoUQ" 
+API_KEY = "AQ.Ab8RN6JZC4xp1YNnd7q6osE79T5gk805RBEZm4HqJn7Vm7AVrg" 
 
 def calcular_letra_rango(nota):
     if 9 <= nota <= 10: return "A"
